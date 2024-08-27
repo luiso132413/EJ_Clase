@@ -6,11 +6,6 @@ const env = {
   password: 'tYnVvGiYQ0Leg6257ZJRhaT17J7Yw6I2',
   host: 'dpg-cr6jnbt6l47c7394rch0-a',
   dialect: 'postgres',
-  /*database: 'postgres',
-  username: 'postgres',
-  password: '1234',
-  host: 'localhost',
-  dialect: 'postgres',*/
   pool: {
     max: 5,
     min: 0,
