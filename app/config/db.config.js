@@ -27,6 +27,11 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
  
-db.Book = require('../models/book.model.js')(sequelize, Sequelize);
+db.Depart = require('../models/Depart.model.js')(sequelize, Sequelize);
+db.Employee = require('../models/Depart.model.js')(sequelize, Sequelize);
+db.Customer = require('../models/Depart.model.js')(sequelize, Sequelize);
+db.Supplier = require('../models/Depart.model.js')(sequelize, Sequelize);
+db.Product = require('../models/Depart.model.js')(sequelize, Sequelize);
+db.Invoice = require('../models/Depart.model.js')(sequelize, Sequelize);
  
 module.exports = db;
